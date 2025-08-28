@@ -4,7 +4,7 @@
   src: url(./public/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
 }
 .bg-image-1{
-  background-image: url(../law1.jpg);
+  background-image: url(./law1.jpg);
   background-size: cover;
   background-position:top;
 }
@@ -18,7 +18,7 @@ body{
   @apply tracking-tighter
 }
 .c-bg1{
-  background-image: url(../talking.jpg);
+  background-image: url(./talking.jpg);
   background-size: cover;
 }
 :root{
@@ -52,7 +52,7 @@ button:hover{
   100%{opacity: 0;}
 }
 .s-bg1{
-  background-image: url(../books.jpg);
+  background-image: url(./books.jpg);
   background-size: cover;
 }
 @media (max-width: 768px) {
@@ -60,7 +60,7 @@ button:hover{
   @apply text-3xl text-[rgb(255,253,241)]
 }
 .c-bg1{
-  background-image: url(../talkingp.jpg);
+  background-image: url(./talkingp.jpg);
   background-size:cover ;
   background-position:top;
   background-repeat: no-repeat;
