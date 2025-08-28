@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@font-face {
+  font-family: Noto;
+  src: url(./public/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+.bg-image-1{
+  background-image: url(./law1.jpg);
+  background-size: cover;
+  background-position:top;
+}
+body{
+  
+  overflow-x: hidden;
+}
+.font-uniq{
+  font-weight: 400;
+  font-family:sans-serif;
+  @apply tracking-tighter
+}
+.c-bg1{
+  background-image: url(./talking.jpg);
+  background-size: cover;
+}
+:root{
+  @apply bg-[rgb(255,251,238)]
+}
+Link:hover{
+  cursor: pointer;
+}
+button:hover{
+  cursor: pointer;
+}
+.b3-c{
+  @apply text-7xl text-[rgb(255,253,241)]
+}
+.anim{
+  animation-name: anim;
+  animation-duration:1.25s ;
+  animation-fill-mode: forwards;
+}
+@keyframes anim {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.antianim{
+  animation-name: antianim;
+  animation-duration:1.25s ;
+  animation-fill-mode: forwards;
+}
+@keyframes antianim {
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+.s-bg1{
+  background-image: url(./books.jpg);
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .b3-c{
+  @apply text-3xl text-[rgb(255,253,241)]
+}
+.c-bg1{
+  background-image: url(./talkingp.jpg);
+  background-size:cover ;
+  background-position:top;
+  background-repeat: no-repeat;
+}
+}
